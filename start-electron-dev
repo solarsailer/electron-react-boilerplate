@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# **This script is only for development.**
+# Launch it with npm: `npm run electron-dev`.
+
+# Launch the React app, which will start `webpack-dev-server`.
+npm start
+
+# Run Electron with the URL of the `webpack-dev-server`.
+ELECTRON_URL=http://localhost:3000 electron .

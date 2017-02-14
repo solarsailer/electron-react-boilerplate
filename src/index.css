@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------- *\
+ * Border-Box.
+\* ---------------------------------------------------------- */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* ---------------------------------------------------------- *\
+ * Defaults.
+\* ---------------------------------------------------------- */
+
+html {
+  color: black; /* Font color. */
+
+  font: 62.5%/1.4 Verdana, sans-serif;
+}
+
+body {
+  position: relative;
+
+  min-height: 100vh;
+  margin: 0;
+
+  font-size: 1.5em; /* Font size. */
+}
+
+::selection {
+  color: white;
+  background: rgb(42, 142, 242);
+}

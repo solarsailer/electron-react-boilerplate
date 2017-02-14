@@ -1,0 +1,35 @@
+{
+  "name": "electron-react-boilerplate",
+  "version": "0.1.0",
+  "description": "Electron React Boilerplate",
+  "license": "MIT",
+  "repository": "solarsailer/electron-react-boilerplate",
+  "author": {
+    "name": "Matthieu Oger",
+    "url": "solarsailer.net"
+  },
+  "keywords": [
+    "electron",
+    "boilerplate",
+    "react",
+    "create-react-app"
+  ],
+  "main": "electron.js",
+  "homepage": ".",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron-dev": "./start-electron-dev",
+    "electron-prod": "npm run build && electron ."
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "electron": "^1.4.15",
+    "react-scripts": "0.9.0"
+  }
+}
